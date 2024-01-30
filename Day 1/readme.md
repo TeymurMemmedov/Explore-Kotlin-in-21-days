@@ -1,4 +1,4 @@
-> Kotlin kodu necə olur ki mənim kompyuterimdə/telefonumda nəsə bir iş görür? Bəs mən sadə bir Kotlin kodunu kompyuterimdə necə işə sala bilərəm?
+> # Kotlin kodu necə olur ki mənim kompyuterimdə/telefonumda nəsə bir iş görür? Bəs mən sadə bir Kotlin kodunu kompyuterimdə necə işə sala bilərəm?
 
 Ümumi proqramlaşdırma biliyimizə əsaslanıb  səthi şəkildə deyə bilərik ki,  mənbə kodu *kompyuterin anlayacağı bir formatda əmrlərə* çevrilməli, əldə edilən bu əmrlər də bir platforma (runtime environment)  üzərində işləməlidir.
 
