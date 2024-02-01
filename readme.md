@@ -11,7 +11,7 @@
 Son olaraq “bu marafondan gözləntilər nə olmalıdır” sualına cavab verib sonlandırmaq istəyirəm. Məqsəd Kotlin dünyasını kəşf etməkdir, Leetcode marafonlarından fərqli olaraq çox kompleks tapşırıqlara, DSA mövzularına girəcəyimizi sanmıram. Mövzu sıralamasında məntiqi ardıcıllığı və sadədən mürəkkəbə prinsipini qorumağa çalışacağam
 
 ### Günlər üzrə yazılara keçidlər
-1. [**Gün 0 : Kotlini tanıyaq!**]()
+1. [**Gün 0 : Kotlini tanıyaq!**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%200/readme.md)
 2. [**Gün 1 : Kotlin necə işləyir?**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%201/readme.md)
-3. [**Bonus 1 — Daha rahat kod yazmaq üçün İDE seçimi** ]()
+3. [**Bonus 1 — Daha rahat kod yazmaq üçün İDE seçimi** ](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Bonus%201/readme.md)
 4. [**Gün 2 : Dəyişənlər və data tiplər**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%202/readme.md)
