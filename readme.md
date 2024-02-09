@@ -3,7 +3,7 @@
 ### Necə faydalanmaq olar:
 1) Əvvəlcə əmin olun ki, ümumi, minimal proqramlaşdırma və kompyuter bilikləriniz var. Əlavə olaraq tövsiyə edərdim ki, bu marafonu ana qaynaq seçməyəsiniz, əvvəlcə daha professional tutorialları izləyib, sonra “görək başqası necə düşünür” deyə bunu oxuyasınız. Əks halda subyektiv fikirlərim, şərhlərim sizi səhv yönləndirə bilər.
 
-2) Bu repodaki yazılar **texniki** dildədir. 'gər daha əyləncəli formatda oxumaq istəyirsinizsə, [bura](https://medium.com/@teymurmemmedov314/list/kotlini-problem-hll-edrk-ksf-et-77be429108e2) bir göz atın
+2) Bu repodaki yazılar **texniki** dildədir. Əgər daha əyləncəli formatda oxumaq istəyirsinizsə, [bura](https://medium.com/@teymurmemmedov314/list/kotlini-problem-hll-edrk-ksf-et-77be429108e2) bir göz atın
 
 3) Problemləri həll etdikcə [Linkedin](https://www.linkedin.com/in/teymur-memmedov-4788a1278/) hesabımdan paylaşım edib, məqaləni "duyururam".
 
@@ -15,3 +15,4 @@ Son olaraq “bu marafondan gözləntilər nə olmalıdır” sualına cavab ver
 2. [**Gün 1 : Kotlin necə işləyir?**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%201/readme.md)
 3. [**Bonus 1 — Daha rahat kod yazmaq üçün İDE seçimi** ](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Bonus%201/readme.md)
 4. [**Gün 2 : Dəyişənlər və data tiplər**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%202/readme.md)
+5. [**Gün 3 : Control Flow Part 1**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%203/readme.md)
