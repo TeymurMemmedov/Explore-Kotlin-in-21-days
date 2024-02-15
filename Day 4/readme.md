@@ -81,14 +81,14 @@ Məsələn, 1..5 step 2 =>  1, 3, 5-ə bərabərdir.
 **Kiçik bir qeyd :** *Xüsusi olaraq, əgər `if-else-else if` strukturlarında body cəmi 1 statementdən(əmrdən) ibarətdirsə, `{` , `}` atıla bilər. Ardıyca da estetik olsun deyə  println()-ləri çəkək **conditionalların** önünə*
 
 ```
-val resultWithNumber = 34
+val finalPoint = 34
 
-if (resultWithNumber in 0..50) println("Qeyri kafi")
-else if (resultWithNumber in 51..60) println("Qənaətbəxş")
-else if (resultWithNumber in 61..70) println("Kafi")
-else if (resultWithNumber in 71..80) println("Yaxşı")
-else if (resultWithNumber in 81..90) println("Çox Yaxşı")
-else if (resultWithNumber in 91..100) println("Əla")
+if (finalPoint in 0..50) println("Qeyri kafi")
+else if (finalPoint in 51..60) println("Qənaətbəxş")
+else if (finalPoint in 61..70) println("Kafi")
+else if (finalPoint in 71..80) println("Yaxşı")
+else if (finalPoint in 81..90) println("Çox Yaxşı")
+else if (finalPoint in 91..100) println("Əla")
 else println("Xətalı giriş!")
 ```
 
@@ -119,13 +119,13 @@ println(myNumber)
 *Bu biliklər əsasında kodumuzu yenidən yazaq.*
 
 ```
-val resultWithNumber = 34
-val resultWithWord = if (resultWithNumber in 0..50) "Qeyri kafi"
-                     else if (resultWithNumber in 51..60) "Qənaətbəxş"
-                     else if (resultWithNumber in 61..70) "Kafi"
-                     else if (resultWithNumber in 71..80) "Yaxşı"
-                     else if (resultWithNumber in 81..90) "Çox Yaxşı"
-                     else if (resultWithNumber in 91..100) "Əla"
+val finalPoint = 34
+val resultWithWord = if (finalPoint in 0..50) "Qeyri kafi"
+                     else if (finalPoint in 51..60) "Qənaətbəxş"
+                     else if (finalPoint in 61..70) "Kafi"
+                     else if (finalPoint in 71..80) "Yaxşı"
+                     else if (finalPoint in 81..90) "Çox Yaxşı"
+                     else if (finalPoint in 91..100) "Əla"
                      else "Xətalı giriş!"
 println(resultWithWord)
 /*Condition-lar sıra ilə yoxlanacaaq, elə birincisi true olduğu üçün
@@ -195,15 +195,15 @@ sonuncu uyğun gəldiyi "Three" dəyəri numberWithWord-ə mənimsənəcək, ekr
 **Bu biliklər işığında belə bir şey yaza bilərik**
 
 ```
- val resultWithNumber = 89
+ val finalPoint = 89
     val resultWithWord = when(true){
-          (resultWithNumber in 0..50)-> "Qeyri kafi"
-          (resultWithNumber in 51..60) ->"Qənaətbəxş"
-          (resultWithNumber in 61..70) ->"Kafi"
-          (resultWithNumber in 71..80) ->"Yaxşı"
-          (resultWithNumber in 71..80) ->"Yaxşı"
-          (resultWithNumber in 81..90) ->"Çox Yaxşı"
-          (resultWithNumber in 91..100)->"Əla"
+          (finalPoint in 0..50)-> "Qeyri kafi"
+          (finalPoint in 51..60) ->"Qənaətbəxş"
+          (finalPoint in 61..70) ->"Kafi"
+          (finalPoint in 71..80) ->"Yaxşı"
+          (finalPoint in 71..80) ->"Yaxşı"
+          (finalPoint in 81..90) ->"Çox Yaxşı"
+          (finalPoint in 91..100)->"Əla"
           else-> "Xətalı giriş!"
 
     }
@@ -237,8 +237,8 @@ when (x) {
 *Bütün bu biliklər əsasında, kodumuzu son dəfə yenidən yazaq*
 
 ```
-val resultWithNumber = 91
-val resultWithWord = when(resultWithNumber)
+val finalPoint = 91
+val resultWithWord = when(finalPoint)
 {
      in 0..50 -> "Qeyri kafi"
      in 51..60 ->"Qənaətbəxş"
