@@ -16,3 +16,4 @@ Son olaraq “bu marafondan gözləntilər nə olmalıdır” sualına cavab ver
 3. [**Bonus 1 — Daha rahat kod yazmaq üçün İDE seçimi** ](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Bonus%201/readme.md)
 4. [**Gün 2 : Dəyişənlər və data tiplər**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%202/readme.md)
 5. [**Gün 3 : Control Flow Part 1**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%203/readme.md)
+5. [**Gün 4 : Control Flow Part 2**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%204/readme.md)

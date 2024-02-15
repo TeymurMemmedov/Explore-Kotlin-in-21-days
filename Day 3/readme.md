@@ -3,8 +3,8 @@
 
 > Təsəvvür edin ki sizə bir n tam ədədi(məsələn 16) verilir, və istənir ki ədədi gözdən keçirib, aşağdakı şərtlərə müvafiq yazıları ekrana çıxarasınız:
 - Həm 3-ə, həm 5-ə bölünürsə - > FizzBuzz 
-- 3-ə bölünənürsə - > Fizz 
-- 5-ə bölünənürsə - > Buzz 
+- 3-ə bölünürsə - > Fizz 
+- 5-ə bölünürsə - > Buzz 
 - Nə 3-ə, nə də 5-ə, heç birinə bölünmürsə - > Ədədin özü
 
 Bu proqramlaşdırmada çox məhşur [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/) məsələsinin sadələşdirilmiş halıdır. 
@@ -28,10 +28,10 @@ val remainder2 = 10%5 // remainder2 : 0
 
 **Məsələnin şərtinə fikir verdinizsə, 3-ə bölünsə filan söz, 5-ə bölünsə filan söz... deyə  şərt əsaslı davranış(conditional) var**
 
-> Qərar vermə proqramlaşdırmada əsas anlayışlardan biridir. Proqramın müəyyən bir vəziyyətdə necə davranması barədə təlimatlar yazırsınız ki, vəziyyət yarandıqda ona uyğun hərəkət edə və ya reaksiya verə bilsin.
+
 
 Kotlində də **conditionallar(şərt strukturları)** var : **if-else** və **when**
-Amma onlardan əvvəl **boolean expressionlar** haqda danışmalıyıq.
+Amma onlardan əvvəl **boolean expressionlar** haqda danışmalıyıq, çünki şərt əsaslı davranışın bünövrəsi boolean expressionlardır
 
 ### Qısaca boolean expressionlar
 
@@ -58,8 +58,8 @@ println(remainder!=0) // true : çünki, "remainder 0-dan fərqlidir" mühahizə
 Həmçinin  daha mürəkkəb boolean expressionlar üçün məntiqi vurma(AND), cəm(OR), və inkar(NOT) əməlləri var.
 Bu cədvəllərə baxaraq  rahatlıqla onları anlaya bilərsiniz.(true 1, false 0-la işarə olunur.)
 
-<img src="logicalOperations.png" width="400" height="200" style="display:inline">
-<img src="logicalOperation2.png" width="400" height="200" style="display:inline">
+<img src="Images/logicalOperations.png" width="400" height="200" style="display:inline">
+<img src="Images/logicalOperation2.png" width="400" height="200" style="display:inline">
 
 
 **Bu məntiqi əməllərin Kotlində tətbiq üsulları:**
@@ -88,13 +88,14 @@ println((2+2==5).not()) //inkar (false) = true
 **Boolean expressionları anladıqsa, qaldığımız yerdən davam edək...**
 
 ### 2. Kotlində şərt əsaslı davranışların tətbiqi necədir?
-Ən fundamental strukturdan, **if-else** istifadə edək, növbəti yazılarda **when**-ə də toxunarıq:
 
+> Qərar vermə proqramlaşdırmada əsas anlayışlardan biridir. Proqramın müəyyən bir vəziyyətdə necə davranması barədə təlimatlar yazırsınız ki, vəziyyət yarandıqda ona uyğun hərəkət edə və ya reaksiya verə bilsin.
 
-**If, else if, else açar sözlərinin izahı:**
+Bu yazıda **if-else** araşdıraq, növbəti yazılarda **when**-ə də toxunarıq:
+
 1. if - şərtli davranışı təmin etmək üçün məcburi və ilkin açar sözdür.
 
-<img src="ifelse.png" width="300" height="200" >
+<img src="Images/ifelse.png" width="300" height="200" >
 
 İki anlayışı oturdaq: **condition** və **body**.
 
@@ -108,7 +109,7 @@ println((2+2==5).not()) //inkar (false) = true
 
 2. else if - Bir çox halda məsələlərin həlli tək bir amildən asılı olmur, bir çox qərar nöqtəsi, ardıcıl yoxlanmalı conditionlar tələb edir.(Necə ki bizim məsələmiz).
 
-<img src="ifelse4.png" width="300" height="200" >
+<img src="Images/ifelse4.png" width="300" height="200" >
 
 **condition1 true olsa body1 icra olunur və növbəti conditionlara heç baxılmır, onlar heç yoxlanmır. condition1 false olsa, condition2 yoxlanır. O true olsa body2 icra olunur növbəti conditionlar heç yoxlanmır**
 
@@ -121,7 +122,7 @@ else-if istifadəsində limit yoxdur, istədiyiniz qədər condition və body ya
 
 3. else - Biz istəyə bilərik ki, heç bir condition true olmasa, sonuncu ehtimalı, bir növ "axırıncı yolu" özümüz müəyyənləşdirək. Bu tez-tez məsələlərin həllində tələb olunur. Bu halda else istifadə olunur. 
 
-<img src="if-else2.png" width="350" height="200" >
+<img src="Images/if-else2.png" width="350" height="200" >
 
 **condition true olsa, body1 icra olunur, false olarsa body2 icra olunur.**
 
@@ -135,7 +136,7 @@ Məsələmizdə həm çoxlu qərar nöqtəsi, həm də "axırıncı yol" var. Bu
 Şərtlərimizi vaciblik dərəcəsinə əsasən yuxarıdan aşağı yazacayıq.
 Strukturumuz buna bənzəyəcək:
 
-<img src="if-else3.png" width="350" height="200"   >
+<img src="Images/if-else3.png" width="350" height="200"   >
 
 ### Kod:
 ```
@@ -165,6 +166,8 @@ else{
 }
 }
 ```
+
+Budur, if-else strukturundan istifadə edərək məsələni həll etdik. Buracan oxudunuzsa təşəkkürlər, növbəti yazımızda Control Flow mövzusuna davam edəcəyik. Hələlik isə sağ olun!
 
 
 
