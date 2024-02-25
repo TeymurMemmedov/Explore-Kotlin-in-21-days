@@ -1,12 +1,12 @@
 # Gün 0 : Kotlini tanıyaq!
-Birbaşa kodlaşdırmaya keçməzdən əvvəl Kotlin dünyasına daha əmin addımlara daxil olaq. Gəlin oyuna gec qoşulsa da, Android mühitini və developerlərin qəlbini fəth edən, Java kimi nəhəng bir dili devirən bu dilə ümumi nəzər yetirək.
+Birbaşa kodlaşdırmaya keçməzdən əvvəl Kotlin dünyasına daha əmin addımlara daxil olaq. Gəlin oyuna gec qoşulsa da, Android mühitini və developerlərin qəlbini fəth edən, Java kimi nəhəngi devirən bu dilə ümumi nəzər yetirək.
 
 Kotlin nədir? Sualı ilə yola çıxsaq, cavabını Kotlinin dokumentasiyasında belə taparıq:
 Kotlin JVM, Android, JavaScript, Wasm və Native-i hədəfləyən açıq mənbəli, statik tipli proqramlaşdırma dilidir.
 
 1. **Açıq mənbəlidir** - Kotlinin source kodu [Githubda](https://github.com/JetBrains/kotlin)  mövcuddur və proqramçılar ona baxa, özləri üçün modifikasiya edə bilərlər. 
-2. **Statik tipli proqramlaşdırma dilidir** - [Statik tipli proqramlaşdırma dillərində type-checking kompilyasiya zamanı baş verir.](https://www.baeldung.com/cs/statically-vs-dynamically-typed-languages) Bu o deməkdir ki, hər bir dəyişənə hansı tipdə dəyər mənimsədildə biləcəyi əvvəldən məlum olmalıdır. Yəni siz “salam” sözünü 3-ə riyazi olaraq bölməyə cəhd belə edə bilməyəcəksiniz, compiler bu riski anlayır və əvvəldən sizi bu xətadan qoruyur. Gələcək yazılara kiçik bir “spoiler” : Kotlin bildiyimiz (C#, Java, C++) statik tipli dillər kimi deyil :)
-3. **Kotlin JVM-i hədəfləyir** : Kotlin bytecode-a compile oluna və Java Virtual Maşınında (JVM) işlədilə bilər. Bu o deməkdir ki, o, mövcud Java kodları iç-içə, qarşılıqlı əlaqədədir 
+2. **Statik tipli proqramlaşdırma dilidir** - [Statik tipli proqramlaşdırma dillərində type-checking kompilyasiya zamanı baş verir.](https://www.baeldung.com/cs/statically-vs-dynamically-typed-languages) Bu o deməkdir ki, hər bir dəyişənə hansı tipdə dəyər mənimsədildə biləcəyi əvvəldən məlum olmalıdır. Yəni siz bir dəyişənə əvvəlcə "salam" sözünü, daha sonra 13 ədədini mənimsətməyə cəhd belə edə bilməyəciksiz, compiler bu riski anlayır və əvvəldən sizi bu xətadan qoruyur. Gələcək yazılara kiçik bir “spoiler” : Kotlin bildiyimiz (C#, Java, C++) statik tipli dillər kimi deyil :)
+3. **Kotlin JVM-i hədəfləyir** : Kotlin Java bytecodelarına compile oluna və Java Virtual Maşınında (JVM) işlədilə bilər. Bu o deməkdir ki, o, mövcud Java kodları iç-içə, qarşılıqlı əlaqədədir 
 Bu xüsusiyyət hansı üstünlükləri gətirir?
 - Layihədə Kotlin və Java faylları birgə mövcud ola bilər
 - Kotlin istənilən Java kitabxanasından və ya frameworkündən problemsiz istifadə edə bilər. Kotlin "mirasdan" xeyli faydalanır. Məsələn, Kotlin mobil proqramlaşdırmada Anroid SDK, Retrofit, backend web proqramlaşdırmada Spring kimi böyük Java strukturlarını çox effektiv istifadə edir.
