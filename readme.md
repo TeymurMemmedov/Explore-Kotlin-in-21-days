@@ -18,3 +18,4 @@ Son olaraq “bu marafondan gözləntilər nə olmalıdır” sualına cavab ver
 5. [**Gün 3 : Control Flow Part 1**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%203/readme.md)
 5. [**Gün 4 : Control Flow Part 2**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%204/readme.md)
 6. [**Gün 5 : Control Flow Part 3**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%205/readme.md)
+7. [**Gün 6 : Funksiyalar**](https://github.com/TeymurMemmedov/Explore-Kotlin-in-21-days/blob/master/Day%206/readme.md)
